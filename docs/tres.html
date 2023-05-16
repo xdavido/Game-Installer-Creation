@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>3
+		</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">xdavido's site</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/code-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>How to test the game in different OS.</h1>
+                            <h2 class="subheading">Dependencies (libraries and dll needed).
+</h2>
+                            <span class="meta">
+                                Posted by
+                                <a href="#!">David Ruiz</a>
+                                on May, 2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                       
+                       
+                        <h2 class="section-heading">Game installer creation with NSIS
+
+</h2>
+<p>NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.
+</p>
+Being a user's first experience with your product, a stable and reliable installer is an important component of successful software. With NSIS you can create such installers that are capable of doing everything that is needed to setup your software.
+
+</p>
+ <h2 class="section-heading">Testing on a Virtual Machine
+
+
+</h2>
+<p>To test a game on different operating systems and previous versions, it is recommended to use a Virtual Machine (VM). Virtual machines provide a secure and isolated environment for testing software without affecting the main operating system of your machine. In this case, we will use VirtualBox as the tool to create and manage the virtual machine.
+
+</p>
+ <h4 class="subheading">Step 1: VirtualBox Installation
+</h4>
+<ol>
+<li>Download and install VirtualBox from the official Oracle website: <a href="https://www.virtualbox.org"> www.virtualbox.org</a>.</li>
+<li>Make sure to download the platform package that corresponds to your current operating system (Windows, macOS, Linux, Solaris, or OpenSolaris).</li>
+<li>Follow the installation instructions provided by the VirtualBox installation wizard.</li>
+</ol>
+<h4 class="subheading">Step 2: Creating a New Virtual Machine
+</h4>
+<ol>
+<li>Open VirtualBox after successfully installing it.</li>
+<li>Click on the "New" button to create a new virtual machine.</li>
+<li>The creation wizard will guide you through the process. Ensure you provide a descriptive name for your virtual machine and select the type and version of the operating system you want to test.</li>
+<li>Set the amount of RAM you want to allocate to the virtual machine. It is recommended to allocate at least the minimum required by the operating system you will install.</li>
+<li>Select "Create a virtual hard disk now" and click "Create" to proceed with the creation of the virtual hard disk.</li>
+</ol>
+<h4 class="subheading">Step 3: Virtual Machine Configuration
+</h4>
+<ol>
+<li>In the virtual hard disk creation wizard, choose the type of hard disk file you want to use. It is recommended to select "VDI (VirtualBox Disk Image)".</li>
+<li>Select the "Dynamically allocated" option for disk storage and set the maximum size you want to assign to the virtual hard disk.</li>
+<li>Click "Create" to finish creating the virtual hard disk.</li>
+</ol>
+<h4 class="subheading">Step 4: Operating System Installation
+</h4>
+<ol>
+<li>Select the virtual machine you created from the VirtualBox list and click the "Start" button.</li>
+<li>You will be prompted to select an ISO file of the operating system you want to install on the virtual machine. Ensure you have a copy of the ISO file on your computer and select the corresponding location.</li>
+<li>Follow the instructions of the operating system installation wizard within the virtual machine. This may vary depending on the operating system you are installing.</li>
+<li>Complete the operating system installation process by following the on-screen instructions.</li>
+</ol>
+                       
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                          
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/xdavido">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; xdavido's Website 2023</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
